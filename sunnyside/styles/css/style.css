@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.header {
+  height: 100vh;
+  background-image: url("/images/mobile/image-hero.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.mainPage {
+  padding: 8em 0px;
+}
+
+.c-simpleCard {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  padding: 70px 0px;
+}
+.c-simpleCard__title {
+  position: relative;
+  top: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5em;
+  max-width: 1ch;
+}
+
+.c-simpleCard:nth-child(1) {
+  background-image: url("../../../images/mobile/image-deep-earth.jpg");
+}
+
+.c-simpleCard:nth-child(2) {
+  background-image: url("../../../images/mobile/image-night-arcade.jpg");
+}
+
+.c-simpleCard:nth-child(3) {
+  background-image: url("../../../images/mobile/image-soccer-team.jpg");
+}
+
+.c-simpleCard:nth-child(4) {
+  background-image: url("../../../images/mobile/image-grid.jpg");
+}
+
+.c-simpleCard:nth-child(5) {
+  background-image: url("../../../images/mobile/image-from-above.jpg");
+}
+
+.c-simpleCard:nth-child(6) {
+  background-image: url("../../../images/mobile/image-pocket-borealis.jpg");
+}
+
+.c-simpleCard:nth-child(7) {
+  background-image: url("../../../images/mobile/image-curiosity.jpg");
+}
+
+.c-simpleCard:nth-child(8) {
+  background-image: url("../../../images/mobile/image-fisheye.jpg");
+}
+
+.c-articleCards__photo {
+  width: 100%;
+}
+.c-articleCards__textContainer {
+  text-align: center;
+}
+.c-articleCards__textContainer .c-articleCards__title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  padding: 1em 0px;
+  color: black;
+}
+.c-articleCards__textContainer .c-articleCards__subtitle {
+  line-height: 1.8em;
+  font-size: 1.5em;
+  color: #8c8c8c;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+
+.c-cardIntro {
+  width: 100%;
+  border: 2px solid white;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.c-logo {
+  width: 50%;
+}
+
+.c-menuBar {
+  width: 10%;
+}
+
+.header__sectionMenu {
+  padding-top: 50px;
+}
+.header__sectionMenu .sectionMenu__menuBar {
+  float: right;
+}
+
+.header__sectionPageIntro .c-cardIntro {
+  position: relative;
+  top: 7em;
+}
+
+/*# sourceMappingURL=style.css.map */

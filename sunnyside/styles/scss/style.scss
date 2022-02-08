@@ -1,0 +1,14 @@
+@import '../scss/base';
+
+@import '../scss/layouts/l-pageHeader',
+        '../scss/layouts/mainPage';
+
+@import 
+        '../scss/modules/c-simpleCard',
+        '../scss/modules/c-articleCards',
+        '../scss/modules/c-cardIntro',
+        '../scss/modules/c-logo',
+        '../scss/modules/c-menuBar',
+        '../scss/modules/c-sectionMenu',
+        '../scss/modules/c-sectionPageIntro',
+        '../scss/modules/c-sectionCreations';
