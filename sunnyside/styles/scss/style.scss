@@ -1,9 +1,16 @@
-@import '../scss/base';
+@import '../scss/base',
+        '../scss/mixins/breakpoints';
 
 @import '../scss/layouts/l-pageHeader',
-        '../scss/layouts/mainPage';
+        '../scss/layouts/mainPage',
+        '../scss/layouts/footerPage';
 
 @import 
+        '../scss/modules/c-sectionMainNews',
+        '../scss/modules/c-menuToggle',
+        '../scss/modules/c-footerPage__menuGroup',
+        '../scss/modules/c-footerPage__socialGroup',
+        '../scss/modules/c-buttonPrimary',
         '../scss/modules/c-simpleCard',
         '../scss/modules/c-articleCards',
         '../scss/modules/c-cardIntro',
