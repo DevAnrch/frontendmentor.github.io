@@ -1,0 +1,64 @@
+.footerPage__logoMenuGroup {
+    .footerPage__logo {
+        margin-top: 3em;
+    }
+
+    .footerPage__menuNav {
+        .footerPage__list {
+            @extend %display-inlineBlock;
+        
+            .footerPage__menuItem {
+                a {
+                    @extend %text-decorationNone;
+                    @extend %weight-600;
+                    color: white;
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 1.1em;
+                }
+            }   
+        }
+        .footerPage__menuItem:first-child {
+            margin-top: 2.5em;
+        }
+        .footerPage__menuItem {
+            margin-bottom: 2.5em;
+        }
+    }
+
+    @include for-desktop-up {
+        max-width: 30%;
+        float: left;
+        text-align: left;
+
+        .footerPage__logo {
+            margin-top: initial;
+            margin-bottom: 2.5em;
+        }
+    
+        .footerPage__menuNav {
+            .footerPage__list {
+                list-style-type: none;
+                .footerPage__menuItem {
+                    display: inline-block;
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 1.2em;
+                    margin: initial;
+
+                    a {
+                        color: white;
+                        text-decoration: none;
+                    }
+
+                    a:hover {
+                        padding-bottom: 10px;
+                        border-bottom: 2px solid white;
+                    }
+                }
+
+                .footerPage__menuItem:not(:last-child) {
+                    margin-right: 1em;
+                }
+            }
+        }    
+    }
+}

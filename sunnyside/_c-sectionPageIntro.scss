@@ -1,0 +1,31 @@
+.header__sectionPageIntro {
+    @extend %position-relative;
+    @extend %backgroundSize-100;
+    top: 30%;
+    
+    //.c-cardIntro {
+        //position: relative;
+      //  top: 7em;
+    //}
+     
+    @include for-phone-min {
+      .header__c-cardIntro {
+        font-size: 2em;
+      }
+    }
+
+    @include for-desktop-up {
+      .c-cardIntro {
+        max-width: 50%;
+        font-size: 5em;
+      
+
+
+        &__title {
+          line-height: 1.2em;
+          text-shadow: 1px 4px 3px rgb(14,6,34,51%);
+          padding: 50px;
+        }
+      } 
+    }
+}

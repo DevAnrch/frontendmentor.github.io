@@ -1,0 +1,45 @@
+.header__sectionMenu {
+    padding-top: 50px;
+
+    .sectionMenu__menuBar {
+       @extend %float-right;
+    }
+
+    .header__navMenuDesktop {
+        display: none;
+        float: right;
+
+        .header__ulListDesktop {
+          .header__menuDesktopItem {
+              @extend %display-inlineBlock;
+
+              a {
+                  @extend %text-decorationNone;
+                  @extend %font-bolder;
+                  @extend .hover-for-link;
+
+                  font-size: 1.4em;
+                  color: white;
+                  font-family: 'Josefin Sans', sans-serif;
+              }
+          }  
+          .header__menuDesktopItem:not(:last-child) {
+              margin-right: 2em;
+          }
+        }
+    }
+    
+    @include for-desktop-up {
+        .sectionMenu__logo {
+            width: 15%;
+        }
+
+        .sectionMenu__menuBar {
+            display: none;
+        }
+        
+        .header__navMenuDesktop {
+            display: initial;
+        }
+    }
+}

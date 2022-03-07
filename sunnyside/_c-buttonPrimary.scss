@@ -1,0 +1,11 @@
+.c-buttonPrimary {
+    @extend %text-uppercase;
+    @extend %font-bolder;
+    @extend %background-none;
+    @extend %border-none;
+    letter-spacing: 0.3em;
+    padding: 15px 30px;
+    border: none;
+    border: 1px solid black !important;
+    color: black; 
+}
